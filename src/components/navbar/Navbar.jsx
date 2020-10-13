@@ -9,7 +9,7 @@ export const Navbar = () => {
    const [button, setButton] = useState(true);
 
    const handleClick = () => setClick(!click);
-   const closeMobileMenu = () => setClick(false);
+   const closeMobileMenu = () => setClick(true);
 
    const showButton = () => {
       if (window.innerWidth <= 960) {
